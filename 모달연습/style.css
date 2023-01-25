@@ -1,0 +1,38 @@
+
+main{
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+.modal>img{
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 20%;
+  margin: 0 20px;
+}
+
+aside{
+  position: fixed;
+  top:100px;
+  right: 50px;
+  background-color: blueviolet;
+  
+}
+
+aside div{
+  width: 500px;
+  height: 700px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blank img{
+
+  width: 80%;
+  height: 80%;
+  
+}

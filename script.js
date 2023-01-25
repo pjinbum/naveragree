@@ -9,12 +9,13 @@
 // }
 // );
 
-$('.every-check').on('click' , function(){
-     $('input').toggle(css({'background-color':'green'}))
-   }
-   );
-
-
+//토글 사용 안됨
+// $('.every-check').toggle(
+//   on('click' , function(){
+//       $('input').css({'background-color':'green'})
+//      }
+//      )
+//   )
 
 
 //체크박스 .every-check가 클릭되었을때
@@ -25,4 +26,4 @@ let Next = document.querySelector('.success');
 
 Next.addEventListener('click', function(){
 
-})
+} , );
