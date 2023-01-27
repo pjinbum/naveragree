@@ -48,7 +48,7 @@ $('#submit').on('click' , function(e){
     // form이 제출되지 못하게 막기
     e.preventDefault();
     //#red-alert가 보이게
-    $('.red-alert').css({'visivility' : 'visible'});
+    $('#red-alert').css('visibility' , 'visible');
   }
   
 })

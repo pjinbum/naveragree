@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+p{
+  font-weight: 700;
+}
+
+
+
+body{
+  display: flex;
+  justify-content: center;
+  height: 130vh;
+}
+
+.wrapper{
+  margin-top: 80px;
+  max-width: 468px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.logo img{
+  width: 240px;
+}
+
+main>div{
+  margin-top: 10px;
+}
+
+
+
+.red-word{
+  color: red;
+  visibility: hidden;
+  
+}
+
+.input-box1{
+  width: 400px;
+  height: 40px;
+  transition: all 400ms ease-in-out;
+}
+
+.inputbox{
+  transition: all 400ms ease-in-out;
+}
+
+.birth input{
+  width: 130px;
+  height: 40px;
+  
+}
+
+.birth select{
+  width: 130px;
+  height: 40px;
+}
+
+.birth1 p{
+  color: red;
+  
+}
+
+.birth1-1{
+  display: none;
+}
+.birth1-2{
+  display: none;
+}
+.birth1-3{
+  display: none;
+}
+
+.human button{
+  width: 130px;
+  height: 40px;
+}
+
+
+.phon select{
+  width: 400px;
+  height: 40px;
+}
+
+.phon1 input {
+  width: 260px;
+  height: 40px;
+}
+
+.phon1 button{
+  width: 130px;
+  height: 40px;
+  background-color:  #03C75A;;
+}
+
+
+.letter-find input{
+  width: 260px;
+  height: 40px;
+}
+
+.letter-find button{
+  width: 130px;
+  height: 40px;
+  background-color:  #03C75A;;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+footer button{
+  background-color:  #03C75A; ;
+  width: 400px;
+  height: 40px;
+  color: #fff;
+}
+
+.posion{
+  position: absolute;
+  top:240px;
+  right: 780px;
+}
+
+.posion1{
+  position: absolute;
+  top:330px;
+  right: 780px;
+}
+
+.inputboxact {
+  border-color: #03C75A;
+}
+
+
+.radiochk {
+  background-color: #03C75A;
+  color: white;
+  font-weight: bold;
+}
+
+.green-word{
+  color: #03C75A;
+  display: none;
+  
+ 
+}
