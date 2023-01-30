@@ -78,6 +78,7 @@ $('.pic1').on('focus' , function(){
     $('.posion img').attr('src' , './image/m_icon_pw_step_04.png')
   } else {
     $('.posion img').attr('src' , './image/m_icon_pw_step_09.png')
+    
   }
 })
 
